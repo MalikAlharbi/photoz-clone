@@ -1,8 +1,13 @@
 package com.example.malik.photoz.clone;
 
+import jakarta.validation.constraints.NotEmpty;
+
 public class Photo {
     private String id;
+    @NotEmpty
     private String fileName;
+
+    public Photo() {}
 
     public Photo(String id, String fileName) {
         this.id = id;

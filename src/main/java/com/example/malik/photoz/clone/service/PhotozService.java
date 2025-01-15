@@ -1,5 +1,6 @@
-package com.example.malik.photoz.clone;
+package com.example.malik.photoz.clone.service;
 
+import com.example.malik.photoz.clone.model.Photo;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

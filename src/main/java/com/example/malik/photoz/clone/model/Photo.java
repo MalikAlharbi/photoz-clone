@@ -1,4 +1,4 @@
-package com.example.malik.photoz.clone;
+package com.example.malik.photoz.clone.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotEmpty;

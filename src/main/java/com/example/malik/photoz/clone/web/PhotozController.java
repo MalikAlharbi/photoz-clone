@@ -1,6 +1,7 @@
-package com.example.malik.photoz.clone;
+package com.example.malik.photoz.clone.web;
 
-import jakarta.validation.Valid;
+import com.example.malik.photoz.clone.model.Photo;
+import com.example.malik.photoz.clone.service.PhotozService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
